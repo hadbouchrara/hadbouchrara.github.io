@@ -119,39 +119,30 @@
           },
         };	
       });
-    </script>
-    
-    
-    
-    
-<script> // don't copy this line
-        /*
-          These two blocks tell the wrapper and DFP about the inventory on your page
-          Paste it into the wrapper javascript in the <head> of your page
-          And update the placement ID with your specific placement
-        */
-        var adUnits = [{
+  
+            var adUnits = [{
           code: 'div-gpt-ad-1486479040361-0',
           sizes: [[300, 250]],
           bids: [{
             bidder: 'audienceNetwork',
             params: {
-              placementId: '1763478457267978_1916962335252922', // TODO: your placement ID
+              placementId: '<YOUR PLACEMENT_ID e.g. 123_456>', // TODO: your placement ID
               tagVersion: '5.5.web',
               fullwidth: true,  // or native, 300x250, 320x50
             }
           }]
         },];
         pbjs.addAdUnits(adUnits);
-        // Tell DFP about the inventory we have on the page
+      
+              // Tell DFP about the inventory we have on the page
         googletag.cmd.push(function () {
           googletag.defineSlot('/1023632/hb_300x250_LIG', [[300, 250]], 'div-gpt-ad-1486479040361-0').addService(googletag.pubads());
           googletag.pubads().enableSingleRequest();
           googletag.enableServices();
         });
-        /*
-          End of code to paste - don't copy this block!
-        */
+
+      
+      
       </script>
     
     
