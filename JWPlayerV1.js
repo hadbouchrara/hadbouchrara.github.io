@@ -30,7 +30,7 @@ var jwConfig = {
                 },
                 "bidders": {
                     "FAN": {
-                        "placementId": "TEST_PLACEMENT_ID"
+                        "placementId": "1763478457267978_1916962335252922"
                     }
                 }
             }
