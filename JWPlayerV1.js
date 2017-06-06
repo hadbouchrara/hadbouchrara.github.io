@@ -6,59 +6,6 @@ E.on(n.JWPLAYER_MEDIA_META,this.metaHandler,this)},this.skipAd=function(e){var t
 },,,,,,function(e,t,n){var i=n(167);"string"==typeof i&&(i=[["all-players",i,""]]),n(42).style(i,"all-players"),i.locals&&(e.exports=i.locals)}]);
 jwplayer.defaults = {
 
-
- "playlist": [
-    {
-      "description": "Test video Facebook",
-      "duration": 202,
-      "image": "//content.jwplatform.com/thumbs/aS9Mf94H-720.jpg",
-      "link": "//content.jwplatform.com/previews/aS9Mf94H",
-      "mediaid": "aS9Mf94H",
-      "pubdate": "Tue, 06 Jun 2017 11:16:26 -0000",
-      "sources": [
-        {
-          "file": "//content.jwplatform.com/manifests/aS9Mf94H.m3u8",
-          "type": "hls"
-        },
-        {
-          "duration": 202,
-          "file": "//content.jwplatform.com/videos/aS9Mf94H-IqFLkNvt.mp4",
-          "height": 240,
-          "label": "180p",
-          "type": "video/mp4",
-          "width": 320
-        },
-        {
-          "duration": 202,
-          "file": "//content.jwplatform.com/videos/aS9Mf94H-jyZIVn18.mp4",
-          "height": 360,
-          "label": "270p",
-          "type": "video/mp4",
-          "width": 480
-        },
-        {
-          "duration": 202,
-          "file": "//content.jwplatform.com/videos/aS9Mf94H-pbA68FMh.m4a",
-          "height": -1,
-          "label": "AAC Audio",
-          "type": "audio/mp4",
-          "width": -1
-        }
-      ],
-      "tags": "Facebook",
-      "title": "Test video Facebook",
-      "tracks": [
-        {
-          "file": "//content.jwplatform.com/strips/aS9Mf94H-120.vtt",
-          "kind": "thumbnails"
-        }
-      ]
-    }
-  ],
-  
-  
-  
-
 "advertising": {
     "client": "googima",
     "skipoffset": null,
