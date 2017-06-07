@@ -105,7 +105,7 @@ var jwConfig = {
   "repeat": false,
   "stagevideo": false,
   "stretching": "uniform",
-  "width": 480
+  "width": 512
 }; // end config
 
 (function(playerConfig, testConfig) {
