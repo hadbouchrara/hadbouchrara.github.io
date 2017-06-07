@@ -16,7 +16,6 @@ var jwConfig = {
   "advertising": {
     "client": "googima",
     "offset": "pre",
-    "tag": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]",     
     "skipoffset": null,
     "vpaidmode": "insecure",
     "schedule": {
