@@ -24,7 +24,7 @@ var jwConfig = {
             "bids": {
                 "mediationLayerAdServer": "dfp",
                 "settings": {
-                    "floorPriceCents": 50,
+                    "floorPriceCents": 5,
                     "floorPriceCurrency": "usd",
                     "bidTimeout": 1000
                 },
