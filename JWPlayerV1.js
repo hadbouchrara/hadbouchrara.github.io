@@ -43,7 +43,7 @@ var jwConfig = {
   "displaytitle": false,
   "flashplayer": "//ssl.p.jwpcdn.com/player/v/7.11.3/jwplayer.flash.swf",
   "height": 270,
-  "key": "UZDnieSGFMDKf4df5YA9tA2d5xKa99I1MJOAK0ZoNNvBiD0WeuwIArtOiUE=",
+  "key": "Nw8E07IRuPCmP4IKqQxhfDe/EG3mfdRLdOc+l4C2lMatNiy9e0wnKXgSFoE=",
   "mute": false,
   "ph": 3,
   "pid": "JdclYcPO",
