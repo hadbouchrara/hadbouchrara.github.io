@@ -15,7 +15,6 @@ if(!document.getElementById("botr_aS9Mf94H_JdclYcPO_div")) {
 var jwConfig = {
   "advertising": {
     "client": "googima",
-    "offset": "pre",
     "skipoffset": null,
     "vpaidmode": "insecure",
     "schedule": {
@@ -41,6 +40,7 @@ var jwConfig = {
 
 
 
+  "tag": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]",
   "autostart": false,
   "controls": true,
   "displaydescription": true,
@@ -100,8 +100,8 @@ var jwConfig = {
     }
   ],
   "plugins": {
-    "http://assets-jpcust.jwpsrv.com/player/6/6124956/ping.js": {
-      "pixel": "http://content.jwplatform.com/ping.gif"
+    "https://assets-jpcust.jwpsrv.com/player/6/6124956/ping.js": {
+      "pixel": "https://content.jwplatform.com/ping.gif"
     }
   },
   "preload": "none",
