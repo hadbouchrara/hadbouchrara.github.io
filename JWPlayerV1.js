@@ -19,7 +19,7 @@ var jwConfig = {
     "vpaidmode": "insecure",
     "schedule": {
         "adBreak": {
-            "tag": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x360&iu=/6062/iab_vast_samples/skippable&ciu_szs=300x250,728x90&impl=s&gdfp_req=1&env=vp&output=xml_vast2&unviewed_position_start=1&url=[referrer_url]&correlator=[timestamp]",
+            "tag": "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/22222827/test_video_unit&cust_params=bid_price_cents%3D100%26placement_id%3D1763478457267978_1944470685835420&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]",
             "offset": "pre",
             "bids": {
                 "mediationLayerAdServer": "dfp",
