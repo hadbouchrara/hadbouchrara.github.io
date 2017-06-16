@@ -26,16 +26,12 @@
      <br>
      <br> 
      
-     DFP VAST tag called once the bid and placement ID have been populated by the deal check script : https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/22222827/test_video_unit&cust_params=bid_price_cents%3D100%26placement_id%3D1763478457267978_1944470685835420&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]
+     DFP VAST tag called once the bid and placement ID have been populated by the deal check script : https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/22222827/test_video_unit&impl=s&gdfp_req=1&env=vp&output=vast&unviewed_position_start=1&url=[referrer_url]&description_url=[description_url]&correlator=[timestamp]
 
+     <br>  
      <br>   
-     <br>
-    Creative VAST tag trafficked in DFP (to avoid Frequency capping) : https://an.facebook.com/v1/instream/vast.xml?placementid=TEST_PLACEMENT_ID&pageurl=test.com
      
-     <br>
-     <br>
-     
-     For real implementation, here is the tag that should have been trafficked here :  https://an.facebook.com/v1/instream/vast.xml?placementid=1763478457267978_1944470685835420&pageurl=%%REFERRER_URL_ESC%%
+     Here is the tag trafficked in DFP :  https://an.facebook.com/v1/instream/vast.xml?placementid=1763478457267978_1944470685835420&pageurl=%%REFERRER_URL_ESC%%&bidid=%%PATTERN:jwFANBidID%%
      <br>
      <br>
      <br>
