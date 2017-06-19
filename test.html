@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Header Bidding - Prebid.js - Test</title>
+
+  </head>
+  <body>
+  
+          <iframe width="300" height="250" style="border:0; margin:0;">
+            <script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+              <script>
+              var googletag = googletag || {};
+              googletag.cmd = googletag.cmd || [];
+              </script>
+
+             <script>
+                googletag.cmd.push(function() {
+                googletag.defineSlot('/22222827/IA_test_ad_AN', [300, 250], 'div-gpt-ad-1497450449487- 0').addService(googletag.pubads());
+                googletag.pubads().enableSingleRequest();
+                googletag.enableServices();
+                });
+              </script>
+           <!-- /22222827/IA_test_ad_AN -->
+            <div id='div-gpt-ad-1497450449487-0' style='height:250px; width:300px;'>
+              <script>
+                googletag.cmd.push(function() { googletag.display('div-gpt-ad-1497450449487-0'); });
+              </script>
+            </div>
+        </iframe>
+  
+  </body>
+</html>
